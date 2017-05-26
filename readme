@@ -1,0 +1,14 @@
+server:
+
+bin目录下：
+编译：sudo make
+运行：sudo ./CHDS [port]
+清理：sudo make clean
+
+
+
+client:
+
+连接：telnet [server addr] [port]
+请求文件：GET [file path]
+退出：exit

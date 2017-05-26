@@ -1,0 +1,14 @@
+#缓存区极限
+fileBufSize = 1024    
+  
+#事件极限
+maxEvents = 64     
+  
+#文件路径长度极限
+maxFilePathSize = 512 
+
+#日志记录长度极限
+maxLogSize = 1024
+
+#下载文件根目录
+rootDir = /var/www/CHDS/docroot
