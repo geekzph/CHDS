@@ -1,4 +1,7 @@
-server:
+#CHDS : C Http Download server
+
+
+服务器运行方式:
 
 bin目录下：
 编译：sudo make
@@ -7,8 +10,8 @@ bin目录下：
 
 
 
-client:
+连接方式:
 
 连接：telnet [server addr] [port]
-请求文件：GET [file path]
-退出：exit
+请求文件：GET [file name] (如果在服务器找到此文件就能下载，没找到会有提示)
+退出：exit 或 quit
